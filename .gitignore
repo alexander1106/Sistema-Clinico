@@ -1,5 +1,5 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
-
+# Es un archivo cuando nosotros hagamos un commit no se incluyan archivos que no queremos que se suban a github.
 # Compiled output
 /dist
 /tmp

@@ -1,0 +1,18 @@
+<div class="inicio">
+  <div class="cont-img">
+    <app-cont-img></app-cont-img>
+  </div>
+  <div class="cont-form">
+    <div class="cont-form-inicio">
+      <contenedor-inicio-sesion-form
+        *ngIf="mostrarComponenteIniciar"
+        (iniciarSesion)="mostrarRegistro()"
+      ></contenedor-inicio-sesion-form>
+      <div class="btn-linea"></div>
+      <app-registro
+        *ngIf="mostrarComponenteRegistro"
+        (iniciarRegistro)="mostrarIncio()"
+      ></app-registro>
+    </div>
+  </div>
+</div>

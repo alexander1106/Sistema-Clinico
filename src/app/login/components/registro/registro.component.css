@@ -1,0 +1,91 @@
+.register-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  position: relative;
+  padding-left: 2px;
+  margin-bottom: 15px;
+  overflow: hidden;
+
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.input-group input {
+  border-radius: 5px !important;
+
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #339371 !important;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+.social-login {
+  margin-top: 20px;
+}
+
+.social-login p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+@media (max-width:568px) {
+ 
+  form{
+  }
+  .register-container{
+    width: 110%;
+  }
+}
